@@ -1,11 +1,11 @@
 # SVG Fill
 Fills all shapes of an SVG in single colour.
 
-<div style='text-align: center;'>
+<p align="center">
 
 ![Illustration of an SVG shape being filled with a color](./svg-fill-illustration.svg)
 
-</div>
+</p>
 
 :warning: Currently uses a naive solution that simply adds a fill attribute with the chosen fill color to the SVG element. For SVGs without styling attributes, such as ones to be composed into a symbol sprite, this should work fine. For anything else, the results will be hit and miss.
 
