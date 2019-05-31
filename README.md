@@ -1,4 +1,7 @@
 # SVG Fill
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/c1rrus/svg-fill.svg)](https://greenkeeper.io/)
+
 Fills all shapes of an SVG in single colour.
 
 <p align="center">
