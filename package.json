@@ -8,7 +8,9 @@
     "clean": "del dist/*",
     "build": "tsc",
     "watch": "tsc --watch",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "files": [
     "dist",
@@ -35,7 +37,8 @@
     "@types/cheerio": "^0.22.11",
     "@types/node": "^12.0.4",
     "cheerio": "^1.0.0-rc.3",
-    "color": "^3.1.1"
+    "color": "^3.1.1",
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "@types/color": "^3.0.0",
@@ -49,5 +52,6 @@
   },
   "engines": {
     "node": ">=8.10.0"
-  }
+  },
+  "snyk": true
 }
