@@ -34,21 +34,21 @@
   },
   "homepage": "https://github.com/c1rrus/svg-fill#readme",
   "dependencies": {
-    "@types/cheerio": "^0.22.11",
-    "@types/node": "^12.0.4",
+    "@types/cheerio": "^0.22.13",
+    "@types/node": "^12.7.2",
     "cheerio": "^1.0.0-rc.3",
-    "color": "^3.1.1"
+    "color": "^3.1.2"
   },
   "devDependencies": {
     "@types/color": "^3.0.0",
-    "@types/jest": "^24.0.13",
+    "@types/jest": "^24.0.18",
     "@types/through2": "^2.0.34",
     "del-cli": "^2.0.0",
-    "jest": "^24.8.0",
+    "jest": "^24.9.0",
     "snyk": "^1.217.1",
     "through2": "^3.0.1",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.5.1"
+    "typescript": "^3.5.3"
   },
   "engines": {
     "node": ">=8.10.0"
