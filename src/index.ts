@@ -32,7 +32,7 @@ export default class SvgFill {
   fillSvg(svgData: Buffer | string): string {
     // Forcing svgData to be "string" for TypeScript's benefit.
     // In actual fact, cheerio.load() does accept Buffers too.
-    const $ = cheerio.load(svgData as string, {xmlMode: true});
+    const $ = cheerio.load(svgData, {xmlMode: true});
     $('svg').attr('fill', this.getFillColor().hex());
     return $.xml();
   }
