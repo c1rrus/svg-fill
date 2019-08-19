@@ -10,7 +10,8 @@
     "watch": "tsc --watch",
     "test": "jest --coverage",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "files": [
     "dist",
