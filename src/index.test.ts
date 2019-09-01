@@ -101,11 +101,18 @@ describe('SvgFill class', () => {
     });
 
     it('should process SVG data that is piped in', (done) => {
-      let filledSvgData = '';
-      fs.createReadStream(testFilePath)
+      let filledSvgData: Buffer = undefined;
+      fs.createReadStream(testFilePath, {
+        highWaterMark: 1024 // Ensure our test file is broken into multiple chunks
+      })
         .pipe(svgFill.fillSvgStream())
         .on('data', function(chunk){
-          filledSvgData = filledSvgData.concat(chunk);
+          if (filledSvgData === undefined) {
+            filledSvgData = chunk;
+          }
+          else {
+            filledSvgData = Buffer.concat([filledSvgData, chunk]);
+          }
         })
         .on('end', function(){
           const $ = cheerio.load(filledSvgData, { xmlMode: true });

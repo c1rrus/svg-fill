@@ -49,12 +49,17 @@ export default class SvgFill {
    * transformed.
    */
   fillSvgStream(): stream.Transform {
-    let svgData = '';
+    let svgData: Buffer = undefined;
     let svgFill = this;
     return through2(
       function(chunk, enc, cb) {
         // accumulate data
-        svgData = svgData.concat(chunk);
+        if (svgData === undefined) {
+          svgData = chunk;
+        }
+        else {
+          svgData = Buffer.concat([svgData, chunk]);
+        }
         cb();
       },
       function(cb) {
