@@ -37,7 +37,7 @@
   "dependencies": {
     "@types/cheerio": "^0.22.13",
     "@types/color": "^3.0.0",
-    "@types/node": "^12.7.2",
+    "@types/node": "^12.7.3",
     "@types/through2": "^2.0.34",
     "cheerio": "^1.0.0-rc.3",
     "color": "^3.1.2",
@@ -47,7 +47,7 @@
     "@types/jest": "^24.0.18",
     "del-cli": "^2.0.0",
     "jest": "^24.9.0",
-    "snyk": "^1.221.1",
+    "snyk": "^1.222.1",
     "ts-jest": "^24.0.2",
     "typescript": "^3.6.2"
   },
