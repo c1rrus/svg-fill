@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
-    "del-cli": "^2.0.0",
+    "del-cli": "^3.0.0",
     "jest": "^24.9.0",
     "snyk": "^1.222.1",
     "ts-jest": "^24.0.2",
