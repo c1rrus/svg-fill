@@ -37,7 +37,7 @@
   "dependencies": {
     "@types/cheerio": "^0.22.13",
     "@types/color": "^3.0.0",
-    "@types/node": "^12.7.3",
+    "@types/node": "^12.7.4",
     "@types/through2": "^2.0.34",
     "cheerio": "^1.0.0-rc.3",
     "color": "^3.1.2",
@@ -45,11 +45,11 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
-    "del-cli": "^2.0.0",
+    "del-cli": "^3.0.0",
     "jest": "^24.9.0",
-    "snyk": "^1.222.1",
+    "snyk": "^1.226.1",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.6.2"
+    "typescript": "^3.6.3"
   },
   "engines": {
     "node": ">=8.10.0"
