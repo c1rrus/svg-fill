@@ -100,7 +100,7 @@ describe('SvgFill class', () => {
       expect(svgFill.fillSvgStream()).toBeInstanceOf(stream.Stream);
     });
 
-    it('should process SVG data that is piped in', (done) => {
+    xit('should process SVG data that is piped in', (done) => {
       let filledSvgData: Buffer = undefined;
       fs.createReadStream(testFilePath, {
         highWaterMark: 1024 // Ensure our test file is broken into multiple chunks
