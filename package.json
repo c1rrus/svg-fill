@@ -37,7 +37,7 @@
   "dependencies": {
     "@types/cheerio": "^0.22.13",
     "@types/color": "^3.0.0",
-    "@types/node": "^12.7.4",
+    "@types/node": "^12.7.5",
     "@types/through2": "^2.0.34",
     "cheerio": "^1.0.0-rc.3",
     "color": "^3.1.2",
