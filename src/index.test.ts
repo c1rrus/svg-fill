@@ -106,7 +106,7 @@ describe('SvgFill class', () => {
         highWaterMark: 1024 // Ensure our test file is broken into multiple chunks
       })
         .pipe(svgFill.fillSvgStream())
-        .on('data', function(chunk){
+        .on('data', function(chunk: Buffer){
           if (filledSvgData === undefined) {
             filledSvgData = chunk;
           }
