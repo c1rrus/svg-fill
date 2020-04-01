@@ -1,7 +1,5 @@
 # SVG Fill
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/c1rrus/svg-fill.svg)](https://greenkeeper.io/)
-
 Fills all shapes of an SVG in single colour.
 
 <p align="center">
@@ -93,3 +91,25 @@ npm run test
 ```
 
 We use [Jest](https://jestjs.io/) for the tests. Each module's unit tests is located alongside its `[module name].ts` file as `[module name].test.ts`.
+
+
+### Linting
+
+To help keep code consistent and avoid common gotchas, we lint our code using [`typescript-eslint`](https://typescript-eslint.io/). To run it do:
+
+```
+npm run lint
+```
+
+
+### Commit message formatting
+
+All commit messages must follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard as we use automated release tools that rely on this. [Commit messages are linted](https://commitlint.js.org/) to check this and your CI builds will fail if your messages don't conform.
+
+To make composing suitable commit messages easier, this repo is [Commitizen friendly](http://commitizen.github.io/cz-cli/). We strongly recommend using commitizen rather than using `git` directly. To use it, simply run:
+
+```
+npm run commit
+```
+
+...and follow the prompts in your terminal.
