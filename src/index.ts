@@ -3,6 +3,34 @@ import Color from 'color';
 import through2 from 'through2';
 import stream from 'stream';
 
+/**
+ * Returns a transform stream that the SVG data can be
+ * piped into. It will output the filled SVG data.
+ *
+ * @param svgFill   The SvgFill instance that will recolour
+ *                   the streamed SVG data.
+ */
+function makeStream(svgFill: SvgFill): stream.Transform {
+  let svgData: Buffer = undefined;
+  return through2(
+    function(chunk, enc, cb) {
+      // accumulate data
+      if (svgData === undefined) {
+        svgData = chunk;
+      }
+      else {
+        svgData = Buffer.concat([svgData, chunk]);
+      }
+      cb();
+    },
+    function(cb) {
+      // Now fill the SVG and push the result
+      this.push(svgFill.fillSvg(svgData));
+      cb();
+    }
+  );
+}
+
 export default class SvgFill {
   private _fillColor: Color;
 
@@ -10,7 +38,7 @@ export default class SvgFill {
     this.setFillColor(fillColor);
   }
 
-  setFillColor(fillColor: Color | string) {
+  setFillColor(fillColor: Color | string): void {
     this._fillColor = fillColor instanceof Color ? fillColor : new Color(fillColor);
   }
 
@@ -49,24 +77,6 @@ export default class SvgFill {
    * transformed.
    */
   fillSvgStream(): stream.Transform {
-    let svgData: Buffer = undefined;
-    let svgFill = this;
-    return through2(
-      function(chunk, enc, cb) {
-        // accumulate data
-        if (svgData === undefined) {
-          svgData = chunk;
-        }
-        else {
-          svgData = Buffer.concat([svgData, chunk]);
-        }
-        cb();
-      },
-      function(cb) {
-        // Now fill the SVG and push the result
-        this.push(svgFill.fillSvg(svgData));
-        cb();
-      }
-    );
+    return makeStream(this);
   }
 }
