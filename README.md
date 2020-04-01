@@ -16,7 +16,7 @@ Fills all shapes of an SVG in single colour.
 
 ### Requirements
 
-* Node.js >= 8.10.0
+* Node.js >= 10
 
 ### Installation
 
