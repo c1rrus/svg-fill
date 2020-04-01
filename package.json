@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/c1rrus/svg-fill#readme",
   "dependencies": {
-    "@types/cheerio": "^0.22.13",
+    "@types/cheerio": "^0.22.17",
     "@types/color": "^3.0.0",
     "@types/node": "^8.10.59",
     "@types/through2": "^2.0.34",
@@ -46,7 +46,7 @@
     "del-cli": "^3.0.0",
     "jest": "^25.1.0",
     "ts-jest": "^25.0.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.8.3"
   },
   "engines": {
     "node": ">=8.10.0"
