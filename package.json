@@ -10,8 +10,7 @@
     "build": "tsc",
     "watch": "tsc --watch",
     "test": "jest --coverage",
-    "lint": "eslint src --ext .js,.ts",
-    "prepublishOnly": "npm run clean && npm run build"
+    "lint": "eslint src --ext .js,.ts"
   },
   "files": [
     "dist",
