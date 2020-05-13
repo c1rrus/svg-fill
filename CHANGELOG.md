@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/c1rrus/svg-fill/compare/v0.3.1...v0.3.2) (2020-05-13)
+
+
+### Bug Fixes
+
+* **deps:** bump @types/through2 from 2.0.34 to 2.0.35 ([dd394d9](https://github.com/c1rrus/svg-fill/commit/dd394d9ffcb6f6cc6617feaabef3c97cc884e872))
+
 ## [0.3.1](https://github.com/c1rrus/svg-fill/compare/v0.3.0...v0.3.1) (2020-04-23)
 
 
