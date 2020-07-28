@@ -1,3 +1,10 @@
+## [0.3.4](https://github.com/c1rrus/svg-fill/compare/v0.3.3...v0.3.4) (2020-07-28)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump npm from 6.14.5 to 6.14.7 ([3f1fa19](https://github.com/c1rrus/svg-fill/commit/3f1fa190dfb6ed90b3924d1b880b04ac52a4b4a6))
+
 ## [0.3.3](https://github.com/c1rrus/svg-fill/compare/v0.3.2...v0.3.3) (2020-05-15)
 
 
