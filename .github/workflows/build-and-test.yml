@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ master ]
 
+env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
 jobs:
   commitlint:
     runs-on: ubuntu-latest
@@ -17,7 +21,7 @@ jobs:
 
 
   build-test:
-    name: Build, lint and test
+    name: Build, lint, test & deploy
     runs-on: ubuntu-latest
 
     strategy:
@@ -34,5 +38,5 @@ jobs:
     - run: npm run lint
     - run: npm run build
     - run: npm test
-
-# Need to add npx semantic-release later
+    - run: npx semantic-release
+      if: ${{ matrix.node-version == '10.x' }}
