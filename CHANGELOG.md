@@ -1,3 +1,12 @@
+## [0.3.5](https://github.com/c1rrus/svg-fill/compare/v0.3.4...v0.3.5) (2020-12-30)
+
+
+### Bug Fixes
+
+* **deps:** bump cheerio from 1.0.0-rc.3 to 1.0.0-rc.5 ([549deda](https://github.com/c1rrus/svg-fill/commit/549deda52b366cf63fc2e7e57322d2e1569d5d30))
+* **deps:** bump color from 3.1.2 to 3.1.3 ([355f0d7](https://github.com/c1rrus/svg-fill/commit/355f0d7f7fc57698d520b4b48bbc1e1dd5794aa9))
+* **deps:** bump node-fetch from 2.6.0 to 2.6.1 ([faae5f8](https://github.com/c1rrus/svg-fill/commit/faae5f8ae3b94b931e06bfe7aadaa1fe3ccce85c))
+
 ## [0.3.4](https://github.com/c1rrus/svg-fill/compare/v0.3.3...v0.3.4) (2020-07-28)
 
 
