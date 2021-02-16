@@ -76,7 +76,7 @@ describe('SvgFill class', () => {
   });
 
   describe('fillSvg() (using Buffer)', () => {
-    const simpleSvgBuffer = new Buffer(simpleSvgData);
+    const simpleSvgBuffer = Buffer.from(simpleSvgData);
 
     it('should return a string', () => {
       expect(typeof svgFill.fillSvg(simpleSvgBuffer)).toBe('string');
@@ -101,7 +101,7 @@ describe('SvgFill class', () => {
     });
 
     it('should process SVG data that is piped in', (done) => {
-      let filledSvgData: Buffer = undefined;
+      let filledSvgData = Buffer.alloc(0);
       fs.createReadStream(testFilePath, {
         highWaterMark: 1024 // Ensure our test file is broken into multiple chunks
       })

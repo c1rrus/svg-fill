@@ -11,16 +11,11 @@ import stream from 'stream';
  *                   the streamed SVG data.
  */
 function makeStream(svgFill: SvgFill): stream.Transform {
-  let svgData: Buffer = undefined;
+  let svgData = Buffer.alloc(0);
   return through2(
     function(chunk, enc, cb) {
       // accumulate data
-      if (svgData === undefined) {
-        svgData = chunk;
-      }
-      else {
-        svgData = Buffer.concat([svgData, chunk]);
-      }
+      svgData = Buffer.concat([svgData, chunk]);
       cb();
     },
     function(cb) {
@@ -32,7 +27,7 @@ function makeStream(svgFill: SvgFill): stream.Transform {
 }
 
 export default class SvgFill {
-  private _fillColor: Color;
+  private _fillColor!: Color;
 
   constructor(fillColor: Color | string) {
     this.setFillColor(fillColor);
