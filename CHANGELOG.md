@@ -1,3 +1,10 @@
+## [0.3.7](https://github.com/c1rrus/svg-fill/compare/v0.3.6...v0.3.7) (2022-02-16)
+
+
+### Bug Fixes
+
+* **deps:** bump y18n from 4.0.0 to 4.0.1 ([0605e4c](https://github.com/c1rrus/svg-fill/commit/0605e4c33b30a79a4bd8bc6aaf49677ff89c5e2c))
+
 ## [0.3.6](https://github.com/c1rrus/svg-fill/compare/v0.3.5...v0.3.6) (2021-02-12)
 
 
