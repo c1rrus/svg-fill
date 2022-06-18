@@ -8,7 +8,7 @@ updates:
   ignore:
   - dependency-name: "@types/node"
     versions:
-    - "> 10"
+    - "> 12"
   commit-message:
     prefix: fix
     prefix-development: chore
