@@ -55,7 +55,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "del-cli": "^4.0.1",
     "eslint": "^8.18.0",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "jest": "^28.1.1",
     "semantic-release": "^17.4.7",
     "ts-jest": "^28.0.5",
