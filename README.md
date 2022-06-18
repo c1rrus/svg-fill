@@ -14,7 +14,7 @@ Fills all shapes of an SVG in single colour.
 
 ### Requirements
 
-* Node.js >= 10
+* Node.js >= 12
 
 ### Installation
 
@@ -27,7 +27,7 @@ npm install --save svg-fill
 Simple usage:
 
 ```js
-const SvgFill = require('svg-fill');
+const SvgFill = require('svg-fill').default;
 
 // Instantiante SvgFill with your chosen fill
 // color:
@@ -44,7 +44,7 @@ Alternatively, `SvgFill` can provide a transform stream that you can pipe your S
 
 ```js
 const fs = require('fs');
-const SvgFill = require('svg-fill');
+const SvgFill = require('svg-fill').default;
 
 // Same setup as above
 const svgFill = new SvgFill('#FF0000');
