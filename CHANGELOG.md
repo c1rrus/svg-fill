@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/c1rrus/svg-fill/compare/v1.0.0...v1.0.1) (2022-06-18)
+
+
+### Bug Fixes
+
+* corrected errors in code examples and min node version listed in readme ([1e4776c](https://github.com/c1rrus/svg-fill/commit/1e4776c685f2d22bd9f5504c21bd1874566fee5e))
+
 # [1.0.0](https://github.com/c1rrus/svg-fill/compare/v0.3.7...v1.0.0) (2022-06-18)
 
 
