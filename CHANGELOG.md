@@ -1,3 +1,15 @@
+# [1.0.0](https://github.com/c1rrus/svg-fill/compare/v0.3.7...v1.0.0) (2022-06-18)
+
+
+### chore
+
+* bumped dependency versions and changed minimum Node version to 12 ([4c25ced](https://github.com/c1rrus/svg-fill/commit/4c25cedaa4fb7dd0b60f39ad9e34d4292d9eec2f))
+
+
+### BREAKING CHANGES
+
+* Minimum supported Node version is now 12
+
 ## [0.3.7](https://github.com/c1rrus/svg-fill/compare/v0.3.6...v0.3.7) (2022-02-16)
 
 
