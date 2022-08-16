@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/c1rrus/svg-fill/compare/v1.0.1...v1.0.2) (2022-08-16)
+
+
+### Bug Fixes
+
+* **deps:** bump cheerio from 1.0.0-rc.11 to 1.0.0-rc.12 ([04804f9](https://github.com/c1rrus/svg-fill/commit/04804f994295ba32378027d1faa2ce4446272ef9))
+
 ## [1.0.1](https://github.com/c1rrus/svg-fill/compare/v1.0.0...v1.0.1) (2022-06-18)
 
 
