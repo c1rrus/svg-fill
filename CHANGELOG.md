@@ -1,3 +1,20 @@
+## [2.0.1](https://github.com/c1rrus/svg-fill/compare/v2.0.0...v2.0.1) (2022-11-15)
+
+
+### Bug Fixes
+
+* **deps:** bump @types/node from 14.18.24 to 14.18.25 ([7f820ba](https://github.com/c1rrus/svg-fill/commit/7f820ba5963f6be545583fbba51c830ea5dbfaf4))
+* **deps:** bump @types/node from 14.18.25 to 14.18.26 ([43da9ab](https://github.com/c1rrus/svg-fill/commit/43da9ab150e0d2950533c1bfccabd1fc24d01ec8))
+* **deps:** bump @types/node from 14.18.26 to 14.18.27 ([6b1420c](https://github.com/c1rrus/svg-fill/commit/6b1420cf25f4fcf8092cd16e79dc7d56c5f00568))
+* **deps:** bump @types/node from 14.18.27 to 14.18.28 ([c1e1ab4](https://github.com/c1rrus/svg-fill/commit/c1e1ab4ad26284989ecc9e3ae5e6f73b425a6e71))
+* **deps:** bump @types/node from 14.18.28 to 14.18.29 ([f845b00](https://github.com/c1rrus/svg-fill/commit/f845b00b8292519acfc415ea867315ff2bbb4c30))
+* **deps:** bump @types/node from 14.18.29 to 14.18.30 ([ccb6b07](https://github.com/c1rrus/svg-fill/commit/ccb6b0767f6d88a4a60160293fe15b2df70b4b02))
+* **deps:** bump @types/node from 14.18.30 to 14.18.31 ([43f8ba2](https://github.com/c1rrus/svg-fill/commit/43f8ba21f0d9d721d8993bd7539b034ca5805a71))
+* **deps:** bump @types/node from 14.18.31 to 14.18.32 ([b40ec11](https://github.com/c1rrus/svg-fill/commit/b40ec112d3b92aa09b9fd5bb2fd12af3c726ea6d))
+* **deps:** bump @types/node from 14.18.32 to 14.18.33 ([60de2b7](https://github.com/c1rrus/svg-fill/commit/60de2b715a1c3d16e820f3edf39b9ce2b8d915e5))
+* **deps:** bump @types/through2 from 2.0.36 to 2.0.37 ([621e082](https://github.com/c1rrus/svg-fill/commit/621e0825d7d23240ba04cee90e79c43ab8de545e))
+* **deps:** bump @types/through2 from 2.0.37 to 2.0.38 ([600761e](https://github.com/c1rrus/svg-fill/commit/600761e1bd1273050e3be706d93c24196ebd5c83))
+
 # [2.0.0](https://github.com/c1rrus/svg-fill/compare/v1.0.2...v2.0.0) (2022-08-16)
 
 
