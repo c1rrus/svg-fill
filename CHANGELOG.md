@@ -1,3 +1,14 @@
+## [2.0.2](https://github.com/c1rrus/svg-fill/compare/v2.0.1...v2.0.2) (2023-02-07)
+
+
+### Bug Fixes
+
+* **deps:** bump @types/node from 14.18.33 to 14.18.34 ([337e946](https://github.com/c1rrus/svg-fill/commit/337e94600d42ce7d6a75ce0fb90f6d8b356276a2))
+* **deps:** bump @types/node from 14.18.34 to 14.18.35 ([90a8a10](https://github.com/c1rrus/svg-fill/commit/90a8a10bab0b749d3c56d585826e11204b1db609))
+* **deps:** bump @types/node from 14.18.35 to 14.18.36 ([4ffc84b](https://github.com/c1rrus/svg-fill/commit/4ffc84b6bbd25f1aef5d11e955106faa57a171ef))
+* **deps:** bump http-cache-semantics from 4.1.0 to 4.1.1 ([f640ea3](https://github.com/c1rrus/svg-fill/commit/f640ea32e8f4b5aa6422504d93d32433c9e7abc0))
+* **deps:** bump json5 from 2.2.1 to 2.2.3 ([4f8c4bf](https://github.com/c1rrus/svg-fill/commit/4f8c4bfdc8db28f6731e38d0e036ee2aa6937fc8))
+
 ## [2.0.1](https://github.com/c1rrus/svg-fill/compare/v2.0.0...v2.0.1) (2022-11-15)
 
 
